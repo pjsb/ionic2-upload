@@ -1,0 +1,44 @@
+{
+  "name": "ionic2-upload",
+  "version": "0.0.1",
+  "description": "Just a little Angular 2 compoment, with styleable HTML5 input (type=file) button.",
+  "main": "./js/index.js",
+  "typings": "./js/index.d.ts",
+  "scripts": {
+    "lint": "tslint -c tslint.json src/*.ts",
+    "build": "npm run lint && tsc",
+    "prepublish": "typings install",
+    "pretest": "npm run lint",
+    "tsdoc": "typedoc --mode modules --out ./doc --exclude node_modules ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjsb/ionic2-upload.git"
+  },
+  "keywords": [
+    "ionic2",
+    "angular2",
+    "typescript"
+  ],
+  "author": "jpeters <jpeters@encom.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjsb/ionic2-upload/issues"
+  },
+  "homepage": "https://github.com/pjsb/ionic2-upload#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/http": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/router-deprecated": "^2.0.0-rc.1",
+    "ionic-angular": "^2.0.0-beta.7",
+    "ionic-native": "^1.2.4",
+    "tslint": "latest",
+    "typedoc": "latest",
+    "typescript": "^1.8.10"
+  }
+}
